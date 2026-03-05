@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HouseHunt</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main class="app">
+      <section class="hero">
+        <p class="brand">HouseHunt</p>
+        <h1>Find your next home quickly</h1>
+        <p>Filter by city, budget, and bedrooms. No login required.</p>
+      </section>
+
+      <section class="filters">
+        <input id="query" type="text" placeholder="Search city, title, type" />
+        <label for="maxPrice">Max budget: <span id="priceValue"></span></label>
+        <input id="maxPrice" type="range" min="10000" max="100000" step="5000" value="100000" />
+        <label for="minBeds">Min bedrooms:</label>
+        <select id="minBeds">
+          <option value="1">1+</option>
+          <option value="2">2+</option>
+          <option value="3">3+</option>
+          <option value="4">4+</option>
+        </select>
+      </section>
+
+      <section>
+        <p id="countText"></p>
+        <div id="listingGrid" class="grid"></div>
+      </section>
+    </main>
+
+    <script src="/app.js"></script>
+  </body>
+</html>
