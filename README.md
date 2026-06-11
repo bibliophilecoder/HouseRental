@@ -257,44 +257,6 @@ npm start
 cd client
 npm start
 ```
-
----
-
-## 📸 Screenshots
-
-Add project screenshots here:
-
-- Home Page
-- Property Listing Page
-- Property Details Page
-- Owner Dashboard
-- Admin Dashboard
-
----
-
-## 🏛️ MVC Architecture
-
-This project follows the MVC (Model-View-Controller) Pattern.
-
-### Model
-- MongoDB Schemas
-- Database Operations
-
-### View
-- API Routes
-- Client-Side User Interface
-
-### Controller
-- Business Logic
-- Request Handling
-- Data Processing
-
-Benefits:
-- Clean Code Structure
-- Better Scalability
-- Easy Maintenance
-- Improved Team Collaboration
-
 ---
 
 ## 🔮 Future Enhancements
@@ -321,11 +283,6 @@ Contributions are welcome.
 
 ---
 
-## 📄 License
-
-This project is licensed under the MIT License.
-
----
 
 ## 👨‍💻 Author
 
