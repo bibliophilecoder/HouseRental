@@ -1,4 +1,4 @@
-# 🏠 HouseRental – House Rent Application
+# 🏠 HouseRental – House Rental Application
 
 HouseRental is a full-stack MERN (MongoDB, Express.js, React.js, Node.js) web application that connects property owners with tenants looking for rental properties. The platform allows users to browse rental listings, view property details, submit booking requests, and manage rental properties efficiently.
 
