@@ -284,6 +284,3 @@ Contributions are welcome.
 ---
 
 
-## 👨‍💻 Author
-
-Developed using the MERN Stack for efficient property rental management and booking.
